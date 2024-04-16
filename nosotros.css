@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    font-weight:1;
+}
+.nav {
+    background-image: url('/src/nosotros.jpg');
+    height: 83vh;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    z-index: 0;
+  }
+  .nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 25, 122, 0.5);
+    z-index: -1;
+   
+  }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 0;
+}
+
+  .logo {
+    margin-left: 10%;
+    width: 50%;
+    height: auto;
+  }
+  
+  .ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .li {
+    margin-right: 40px;
+  }
+  
+  .li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .li a:hover {
+    color:rgba(70, 35, 122);
+  }
+  .propiedades
+{
+    width: 100vw;
+    height: 50vh;
+    color: rgba(70, 35, 122);
+    margin-top: 8%;
+}
+
+.texto
+{
+  width: 50vw;
+  margin-top: 5%;
+  text-align: center;
+}
+.texto h2{
+  margin-top: 30%;
+  font-size: 5rem;
+  text-align: left;
+  color: white;
+  margin-left: 10%;
+}
+
+.buscador
+{
+  display: flex;
+  width: 100vw;
+  height: 140vh;
+  text-align: center;
+
+}
+.buscador-text{
+  width: 100vw;
+}
+.buscador-text h6{
+  margin-top: 8%;
+  font-size: 1.5rem;
+  color: rgba(70, 35, 122);
+}
+.buscador-text h2{
+  margin-top: 3%;
+  font-size: 4rem;
+  color: rgba(70, 35, 122);
+}
+
+.buscador2{
+    display: flex;
+    text-align: justify;
+  }
+  .buscador2-hijo{
+    width: 40vw;
+    height: 40vh;
+    margin-left: 5%;
+  }
+  .buscador2-hijo h3{
+    margin-top: 20%;
+    font-size: 1.5rem;
+    color: rgba(70, 35, 122);
+  }
+  .buscador2-hijo p{
+    margin-top: 10%;
+    font-size: 1.2rem;
+  }
+  .buscador2-hijo h6{
+    margin-top: 10%;
+    font-size: 1.1rem;
+  }
+.foto{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/src/reunion.jpg');
+    background-position: center;
+}
+.vision-mision{
+    height: 80vh;
+}
+.estadisticas {
+    background-image: url('/src/nosotros-sofa.jpg');
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    z-index: 0;
+   
+  }
+  .estadisticas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 25, 122, 0.5);
+    z-index: -1;
+  }
+  .estadisticas-hijo{
+    color: white;
+    width: 18vw;
+    margin-left: 5%;
+  }
+  .estadisticas-hijo h4{
+    font-size: 5rem;
+    margin-top: 35%;   
+  }
+  .estadisticas-hijo h5{
+    font-size: 1.5rem;   
+  }
+  footer{
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+  }
+  .f1, .f2{
+    width: 50vw;
+    margin-top: 6%;
+    font-size: 1.25rem;
+  }
+  .f1{
+    margin-left: 5%;
+  }
+  .f2{
+    margin-left: 50%;
+  }
+ 
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .menu,.destacadas,.destacadas2 {
+    flex-direction: column;
+    align-items: center;
+}
+  .nav{
+    height: 80vh;
+  }
+  .propiedades{
+    height: 270vh;
+  }
+  .propiedades2{
+    height: 520vh;
+  }
+.AboutUs-texto p{
+  text-align: center;
+}
+
+  .logo {
+      margin: 0;
+  }
+
+  .ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .ul .li {
+      margin: 10px 0;
+  }
+
+  .texto h2 {
+      margin-top: 10%;
+      font-size: 3rem;
+      text-align: center;
+      margin-left: 0;
+  }
+
+  .buscador {
+      flex-direction: column;
+  }
+
+  .buscador2-hijo {
+      width: 90%;
+      margin-left: 5%;
+  }
+  .buscador2{
+    margin-top: 5%;
+  }
+
+  .buscador-text h6 {
+      margin-top: 5%;
+  }
+
+  .buscador-text h2 {
+      margin-top: 5%;
+  }
+
+  .estadisticas {
+      height: 40vh;
+  }
+
+  .estadisticas-hijo h4 {
+      margin-top: 20%;
+  }
+  .contenedor,.texto,.contacto,.destacadas,.destacadas-hijo,.AboutUs,.propiedades2,.destacadas2,.buscador,.buscador2,footer,.estadisticas{
+    display: block;
+    margin-left: 0%;
+    width: 100vw;
+    height: fit-content;
+    margin: 0%;
+    align-items: center;
+  }
+  .estadisticas-hijo{
+    text-align: center;
+    align-items: center;
+  }
+  .buscador{
+    height: 190vh;
+  }
+  .vision-mision{
+    height: 130vh;
+  }
+  .buscador2-hijo{
+    height: 60vh;
+  }
+  .foto{
+    width: 100vw;
+  }
+  .f1,.f2,.estadisticas-hijo{
+    width: 100%;
+  }
+ 
+}

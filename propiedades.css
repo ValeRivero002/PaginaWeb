@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    font-weight:1;
+}
+.nav {
+    background-image: url('/src/nosotros.jpg');
+    height: 83vh;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    z-index: 0;
+  }
+  .nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(70, 25, 122, 0.5);
+    z-index: -1;
+   
+  }
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 0;
+}
+
+  .logo {
+    margin-left: 10%;
+    width: 50%;
+    height: auto;
+  }
+  
+  .ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .li {
+    margin-right: 40px;
+  }
+  
+  .li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .li a:hover {
+    color:rgba(70, 35, 122);
+  }
+  .propiedades
+{
+    width: 100vw;
+    height: 50vh;
+    color: rgba(70, 35, 122);
+    margin-top: 8%;
+}
+
+.texto
+{
+  width: 50vw;
+  margin-top: 5%;
+  text-align: center;
+}
+.texto h2{
+  margin-top: 30%;
+  font-size: 5rem;
+  text-align: left;
+  color: white;
+  margin-left: 10%;
+}
+.destacadas-hijo {
+  position: relative; 
+
+}
+.caja-naranja {
+  position: absolute; /* Coloca el texto de "En Alquiler" en una posición absoluta */
+  top: 40%; /* Ajusta la posición desde la parte superior */
+  left: 8%; /* Ajusta la posición desde la parte izquierda */
+  background-color: #f6bc98;
+  color: white;
+  padding: 4% 20%; 
+  z-index: 1; 
+  font-size: 1.2rem; 
+  text-align: justify;
+}
+.propiedades h2, .propiedades2 h2{
+  font-size: 4rem;
+  text-align: center;
+}
+.propiedades2{
+  color: rgba(70, 35, 122);
+  margin-top: 8%;
+  height: 280vh;
+  max-width: 100%;
+}
+.destacadas2, .destacadas{
+  max-width:100vw;
+  max-height: 100vh;
+  display: flex;
+  align-items: justify;
+  margin-top: 10%;
+  margin-left: 5.5%;
+}
+.destacadas-hijo{
+  margin-left: 0.2%;
+ 
+}
+.destacadas .destacada{
+  width: 22vw;
+  height: auto;
+  position: relative;
+}
+.destacadas .caja-naranja{
+  background-color: #f6bc98;
+  width: 10vw;
+  height: 7vh;
+  color: white;
+  text-align: center;
+  position: absolute; 
+  top: 215%; 
+  left: 5%;
+  transform: translateY(-10%);
+  z-index: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.destacadas h3, .destacadas2 h3{
+  margin-top: 18%;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+.destacadas a, .destacadas2 a{
+  color: rgba(70, 35, 122);
+  text-decoration: none;
+}
+.destacadas h5, .destacadas2 h5{
+  margin-top: 10%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.destacadas p, .destacadas2 p{
+  margin-top: 10%;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: black;
+}
+.AboutUs
+{
+  display: flex;
+  width: 100vw;
+  background-image: url('/src/aboutus.jpg');
+  height: 130vh;
+  background-size: cover; 
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+.AboutUs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 35, 122, 0.5);
+  z-index: -1;
+ 
+}
+.AboutUs-texto
+{
+  width: 50vw;
+  height: 100vh;
+  color: white;
+  margin-top: 10rem;
+  margin-left: 4rem;
+}
+.AboutUs-texto h6{
+  font-size: 1rem;
+}
+.AboutUs-texto h2{
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+.AboutUs-texto h5{
+  font-size: 1.3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+.AboutUs-texto p{
+  font-size: 1.3rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+.AboutUs-texto button, .destacadas2 button, .buscador2-hijo button, .info-texto button{
+  margin-top: 10%;
+  font-size: 1rem;
+  width: 12vw;
+  margin-left: 0%;
+  color: rgba(70, 35, 122);
+  border: none;
+  height: 7vh;
+}
+.buscador2-hijo button{
+  margin-top: 15%;
+  width: 18vw;
+  height: 8vh;
+}
+.AboutUs-texto button{
+  
+  background-color: white;
+
+}
+.destacadas2 button, .info-texto button
+{
+  background-color: rgba(70, 35, 122);
+  color: white;
+  
+ 
+}
+.destacadas-hijo button{
+  margin-left: 0%;
+}
+.propiedades h6, .propiedades2 h6{
+  font-size: 1rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+footer{
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+}
+.f1, .f2{
+  width: 50vw;
+  margin-top: 6%;
+  font-size: 1.25rem;
+}
+.f1{
+  margin-left: 5%;
+}
+.f2{
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  *{
+    max-width: 100vw;
+  }
+  .texto .celular,.texto .contactanos{
+    width: 5vw ;
+  }
+  .contacto form{
+    margin-left: 0%;
+  }
+  .menu,.destacadas,.destacadas2 {
+      flex-direction: column;
+      align-items: center;
+  }
+  .contenedor,.texto,.contacto,.destacadas,.destacadas-hijo,.AboutUs,.propiedades2,.destacadas2,.buscador,.buscador2,footer{
+    display: block;
+    margin-left: 0%;
+    width: 100vw;
+    height: fit-content;
+    margin: 0%;
+    align-items: center;
+
+  }
+  .buscador{
+    height: 300vh;
+  }
+  .buscador2-hijo{
+    height: 80vh;
+  }
+  
+  .destacadas-hijo{
+    margin-top: 10%;
+  }
+  .contacto input[type="text"],
+.contacto input[type="email"],.contacto textarea{
+  width: 85%;
+}
+  .nav{
+    height: 80vh;
+  }
+  .propiedades{
+    height: 270vh;
+  }
+  .propiedades2{
+    height: 520vh;
+  }
+.AboutUs-texto p{
+  text-align: center;
+}
+
+  .logo {
+      margin: 0;
+  }
+
+  .ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .ul .li {
+      margin: 10px 0;
+  }
+  .texto .celular,.texto .contactanos{
+    width: 10vw;
+    margin-left: 0%;
+  }
+  
+  .AboutUs{
+    height: 141vh;
+  }
+  .destacadas .caja-naranja {
+    width: 60vw; /* Ajusta el ancho al 100% en dispositivos móviles */
+    height: 3vh;
+    left: 0;
+    margin-top: 10%;
+    top: 100%;
+    transform: translateY(-10%);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .texto h2,.propiedades h2,.propiedades2 h2 {
+      font-size: 3rem;
+      margin-left: 0;
+      text-align: center;
+  }
+  .informacion{
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .texto p,
+  .contacto h2,
+  .AboutUs h2,
+  .buscador h2,.AboutUs-texto,.f1,.f2 {
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .buscador2-hijo button,.destacadas-hijo button ,.AboutUs-texto button{
+    margin-top: 15%;
+    width: 60vw;
+    height: 8vh;
+  }
+.buscador2-hijo{
+  margin-top: 0%;
+}
+  .texto .celular,
+  .texto .contactanos,
+  .contacto form,
+  .buscador2-hijo,
+  .buscador-text,
+  .buscador2-hijo,
+  .info-hijo,
+  .info-texto,.texto,.destacadas-hijo,.destacadas,.propiedades,.AboutUs-texto,.destacadas2,.propiedades2,.AboutUs
+  ,.nav,.contenedor,.f1,.f2
+  
+  {
+      width: 100%;
+  }
+  .contacto,.contacto form{
+    width: 90%;
+  }
+
+  .buscador2-hijo,.contacto {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .destacadas .destacada,.destacadas2 .destacada{
+    width: 100vw;
+    margin-top: 10%;
+  }
+  .AboutUs .AboutUs2{
+    width: 100vw;
+    margin-top: 0%;
+  }
+  
+  .destacadas3{
+    margin-top: 330%;
+  }
+  
+  .propiedades h6,
+  .propiedades2 h6,.AboutUs-texto h5 {
+      text-align: center;
+  }
+  .propiedades2{
+    margin-top: 20%;
+    height: 600vh;
+  }
+  .propiedades22{
+    margin-top: 50%;
+  }
+  .propiedades21{
+    margin-top: 60%;
+  }
+}
