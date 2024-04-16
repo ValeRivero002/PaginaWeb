@@ -189,7 +189,7 @@
     align-items: center;
 }
   .nav{
-    height: 80vh;
+    height: 60vh;
   }
   .propiedades{
     height: 270vh;
@@ -199,6 +199,11 @@
   }
 .AboutUs-texto p{
   text-align: center;
+}
+.f1,.f2 {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
   .logo {
@@ -261,13 +266,13 @@
     align-items: center;
   }
   .buscador{
-    height: 190vh;
+    height: 150vh;
   }
   .vision-mision{
     height: 130vh;
   }
   .buscador2-hijo{
-    height: 60vh;
+    height: 40vh;
   }
   .foto{
     width: 100vw;

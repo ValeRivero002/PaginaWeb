@@ -432,7 +432,7 @@ footer{
 .caja-naranja {
   position: absolute; /* Coloca el texto de "En Alquiler" en una posición absoluta */
   top: 40%; /* Ajusta la posición desde la parte superior */
-  left: 8%; /* Ajusta la posición desde la parte izquierda */
+  left: 8%; 
   background-color: #f6bc98;
   color: white;
   padding: 4% 20%; 
@@ -440,6 +440,7 @@ footer{
   font-size: 1.2rem; 
   text-align: justify;
 }
+
 @media screen and (max-width: 768px) {
   *{
     max-width: 100vw;
@@ -464,10 +465,10 @@ footer{
 
   }
   .buscador{
-    height: 300vh;
+    height: 220vh;
   }
   .buscador2-hijo{
-    height: 80vh;
+    height: 70vh;
   }
   
   .destacadas-hijo{
@@ -478,13 +479,13 @@ footer{
   width: 85%;
 }
   .nav{
-    height: 200vh;
+    height: 150vh;
   }
   .propiedades{
-    height: 270vh;
+    height: 290vh;
   }
   .propiedades2{
-    height: 520vh;
+    height: 550vh;
   }
 .AboutUs-texto p{
   text-align: center;
@@ -529,7 +530,7 @@ footer{
   }
   .informacion{
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
   }
 
   .texto p,
@@ -540,7 +541,8 @@ footer{
       margin-left: 0;
       margin-right: 0;
   }
-  .buscador2-hijo button,.destacadas-hijo button ,.AboutUs-texto button{
+
+  .buscador2-hijo button,.destacadas-hijo button ,.AboutUs-texto button,.info-texto button{
     margin-top: 15%;
     width: 60vw;
     height: 8vh;
